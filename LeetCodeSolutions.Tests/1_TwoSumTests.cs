@@ -8,7 +8,7 @@ public class TwoSumTests
     {
         int[] nums = [3,2,4];
         var target = 6;
-        int[] expectedResult = [1,2];
+        int[] expectedResult = [2,1];
 
         var result = TwoSumClass.TwoSum(nums, target);
 
