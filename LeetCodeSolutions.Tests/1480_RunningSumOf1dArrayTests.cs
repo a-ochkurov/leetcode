@@ -12,8 +12,8 @@ public sealed class RunningSumOf1dArrayTests
         CollectionAssert.AreEqual(expectedResult, result);
     }
     
-public static IEnumerable<object[]> GetTestData()
-{
-    yield return new object[] { new int[] { 1, 2, 3, 4 }, new int[] { 1, 3, 6, 10 } };
-}
+    public static IEnumerable<object[]> GetTestData()
+    {
+        yield return new object[] { new int[] { 1, 2, 3, 4 }, new int[] { 1, 3, 6, 10 } };
+    }
 }
